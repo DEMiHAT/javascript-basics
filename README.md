@@ -1,11 +1,9 @@
-
-
----
+Here is the complete Markdown content, ready to copy and paste into your `README.md` file:
 
 ```markdown
 # 🧠 JavaScript Basics Programs
 
-This repository contains a collection of **beginner-to-intermediate JavaScript programs**, each built as a standalone HTML file.  
+This repository contains a collection of **beginner-to-intermediate JavaScript programs**, each built as a standalone HTML file.
 The project demonstrates **core JavaScript fundamentals** such as conditionals, loops, event handling, DOM manipulation, and form validation — all executable directly in the browser.
 
 ---
@@ -14,21 +12,21 @@ The project demonstrates **core JavaScript fundamentals** such as conditionals, 
 
 ```
 
-JS_Basics/
+JS\_Basics/
 │
 ├── amstrong.html             → Checks whether a number is an Armstrong number
 ├── arithmetic.html           → Performs basic arithmetic operations (+, −, ×, ÷)
 ├── display.html              → Accepts and displays a user-entered string
-├── event_handlingimage.html  → Changes an image to text on click (event handling)
+├── event\_handlingimage.html  → Changes an image to text on click (event handling)
 ├── factorial.html            → Calculates the factorial of a number
 ├── fibonacci.html            → Generates the Fibonacci series
-├── form_input.html           → Adds or multiplies two numbers using form input
+├── form\_input.html           → Adds or multiplies two numbers using form input
 ├── leayear.html              → Determines whether a year is a leap year
 ├── max3.html                 → Finds the largest of three numbers
-├── odd_even.html             → Checks whether a number is odd or even
-├── prime_or_not.html         → Checks whether a number is prime or not
-├── random_number.html        → Generates a random number within a range
-├── str_reverse.html          → Reverses a string using a built-in method
+├── odd\_even.html             → Checks whether a number is odd or even
+├── prime\_or\_not.html         → Checks whether a number is prime or not
+├── random\_number.html        → Generates a random number within a range
+├── str\_reverse.html          → Reverses a string using a built-in method
 ├── swap2no.html              → Swaps two numbers using a temporary variable
 ├── validation.html           → Validates form fields (empty input, email format, etc.)
 ├── wish.html                 → Displays greetings based on time of day
@@ -42,52 +40,47 @@ JS_Basics/
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/JS_Basics.git
+   git clone [https://github.com/](https://github.com/)<your-username>/JS_Basics.git
 ````
 
-2. **Open any HTML file** directly in your browser.
+2.  **Open any HTML file** directly in your browser.
 
-3. Each file runs **independently** — no external dependencies required.
+3.  Each file runs **independently** — no external dependencies required.
 
----
+-----
 
 ## 🧩 Concepts Demonstrated
 
-* Conditional statements (`if`, `else`, `switch`)
-* Loops (`for`, `while`)
-* User input and output handling
-* DOM manipulation and event handling (`onclick`, `onsubmit`)
-* String and number operations
-* Form validation and pattern checking
-* Random number generation
-* Time-based logic for greetings
+  * Conditional statements (`if`, `else`, `switch`)
+  * Loops (`for`, `while`)
+  * User input and output handling
+  * DOM manipulation and event handling (`onclick`, `onsubmit`)
+  * String and number operations
+  * Form validation and pattern checking
+  * Random number generation
+  * Time-based logic for greetings
 
----
+-----
 
 ## 🛠️ Technologies Used
 
 | Technology           | Purpose                                        |
 | -------------------- | ---------------------------------------------- |
-| **HTML5**            | Defines page structure and UI elements         |
+| **HTML5** | Defines page structure and UI elements         |
 | **JavaScript (ES6)** | Implements logic, functions, and interactivity |
-| **CSS (optional)**   | Provides visual styling for certain files      |
+| **CSS (optional)** | Provides visual styling for certain files      |
 
----
+-----
 
 ## 👨‍💻 Author
 
 **Sanjeev Sriram**
 📧 [your.email@example.com](mailto:your.email@example.com)
-🌐 [GitHub Profile](https://github.com/<your-username>)
+🌐 [GitHub Profile](https://www.google.com/search?q=https://github.com/%3Cyour-username%3E)
 
----
+-----
 
 > *“Code it. Break it. Fix it. Learn from it.”* 🚀
 
 ```
-
----
-
-Would you like me to include **a short “Project Overview” section** at the top (2–3 lines explaining why this folder was created, like for college/practice/demo)? It makes the README even more polished for GitHub.
 ```
-
