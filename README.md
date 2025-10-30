@@ -1,4 +1,3 @@
-Sure ✅ — here’s your **ready-to-use README.md** version (you can copy-paste directly into your repo’s `README.md` file):
 
 ---
 
