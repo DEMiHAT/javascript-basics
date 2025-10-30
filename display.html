@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display String</title>
+</head>
+<body>
+<h2>Accept and Display a String</h2>
+
+<form onsubmit="displayString(event)">
+    <label>Enter a String:</label>
+    <input type="text" id="inputString" required>
+    <button type="submit">Display</button>
+</form>
+
+<h3 id="result"></h3>
+
+<script>
+    function displayString(event) {
+        event.preventDefault(); // prevent page reload
+        let str = document.getElementById("inputString").value;
+        document.getElementById("result").innerHTML = "You entered: " + str;
+    }
+</script>
+</body>
+</html>

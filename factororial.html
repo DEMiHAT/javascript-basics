@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial of a Number</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        input[type="number"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: none;
+            width: 100px;
+            text-align: center;
+        }
+        input[type="button"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        input[type="button"]:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Factorial Calculator</h2>
+    <form>
+        <label>Enter a number:</label><br><br>
+        <input type="number" id="num" min="0" placeholder="e.g. 5">
+        <input type="button" value="Find Factorial" onclick="findFactorial()">
+    </form>
+    <p id="result"></p>
+</div>
+
+<script>
+    function findFactorial() {
+        let n = document.getElementById("num").value;
+        n = parseInt(n);
+        let fact = 1;
+
+        if (isNaN(n) || n < 0) {
+            document.getElementById("result").innerHTML = "⚠️ Please enter a valid non-negative number.";
+            return;
+        }
+
+        for (let i = 1; i <= n; i++) {
+            fact *= i;
+        }
+
+        document.getElementById("result").innerHTML = `✅ Factorial of ${n} is: <b>${fact}</b>`;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+<h2>Form Validation Example</h2>
+
+<form onsubmit="return validateForm()">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h3 id="result" style="color:red;"></h3>
+
+<script>
+    function validateForm() {
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let password = document.getElementById("password").value.trim();
+        let result = document.getElementById("result");
+
+        // Check for empty fields
+        if (name === "" || email === "" || password === "") {
+            result.innerHTML = "⚠️ All fields are required!";
+            return false;
+        }
+
+        // Validate email format
+        let emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailPattern.test(email)) {
+            result.innerHTML = "❌ Invalid email format!";
+            return false;
+        }
+
+        // Check password length
+        if (password.length < 6) {
+            result.innerHTML = "🔒 Password must be at least 6 characters long!";
+            return false;
+        }
+
+        // If all checks pass
+        result.style.color = "green";
+        result.innerHTML = "✅ Form submitted successfully!";
+        return true;
+    }
+</script>
+</body>
+</html>

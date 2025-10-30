@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse a String</title>
+</head>
+<body>
+<h2>Reverse a String</h2>
+
+<form onsubmit="reverseString(event)">
+    <label>Enter a String:</label>
+    <input type="text" id="inputString" required>
+    <button type="submit">Reverse</button>
+</form>
+
+<h3 id="result"></h3>
+
+<script>
+    function reverseString(event) {
+        event.preventDefault(); // prevent page reload
+
+        let str = document.getElementById("inputString").value;
+        let reversed = str.split('').reverse().join(''); // built-in functions
+        document.getElementById("result").innerHTML = "Reversed String: " + reversed;
+    }
+</script>
+</body>
+</html>

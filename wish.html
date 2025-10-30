@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Time-Based Greeting</title>
+</head>
+<body>
+<h2>Welcome!</h2>
+<h3 id="greeting"></h3>
+
+<script>
+    function wishUser() {
+        let now = new Date();
+        let hour = now.getHours();
+        let message = "";
+
+        if (hour < 12) {
+            message = "Good Morning ☀️";
+        } else if (hour < 18) {
+            message = "Good Afternoon 🌤️";
+        } else {
+            message = "Good Evening 🌙";
+        }
+
+        document.getElementById("greeting").innerHTML = message;
+    }
+
+    // call function when page loads
+    wishUser();
+</script>
+</body>
+</html>

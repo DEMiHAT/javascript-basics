@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44d32531-59a5-4689-a04e-754cde048c37" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="34n2uBnANrXRHZcN0EBJXvA8Qpg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.amstrong.html.executor": "Coverage",
+    "JavaScript Debug.arithmetic.html.executor": "Coverage",
+    "JavaScript Debug.display.html.executor": "Coverage",
+    "JavaScript Debug.event_handlingimage.html.executor": "Coverage",
+    "JavaScript Debug.factororial.html.executor": "Coverage",
+    "JavaScript Debug.fibonacci.html.executor": "Coverage",
+    "JavaScript Debug.form_input.html.executor": "Coverage",
+    "JavaScript Debug.leapyear.html.executor": "Coverage",
+    "JavaScript Debug.max3.html.executor": "Coverage",
+    "JavaScript Debug.odd_even.html.executor": "Coverage",
+    "JavaScript Debug.prime_or_not.html.executor": "Coverage",
+    "JavaScript Debug.random_number.html.executor": "Coverage",
+    "JavaScript Debug.str_reverse.html.executor": "Coverage",
+    "JavaScript Debug.swap2no.html.executor": "Coverage",
+    "JavaScript Debug.validation.html.executor": "Coverage",
+    "JavaScript Debug.wish.html.executor": "Coverage",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44d32531-59a5-4689-a04e-754cde048c37" name="Changes" comment="" />
+      <created>1761835235722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761835235722</updated>
+      <workItem from="1761835236767" duration="2618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JS_Basics$amstrong_html.dat" NAME="amstrong.html Coverage Results" MODIFIED="1761836447963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JS_Basics$factororial_html.dat" NAME="factororial.html Coverage Results" MODIFIED="1761835442349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JS_Basics$odd_even_html.dat" NAME="odd_even.html Coverage Results" MODIFIED="1761836062139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JS_Basics$swap2no_html.dat" NAME="swap2no.html Coverage Results" MODIFIED="1761836943260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JS_Basics$max3_html.dat" NAME="max3.html Coverage Results" MODIFIED="1761836331343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JS_Basics$display_html.dat" NAME="display.html Coverage Results" MODIFIED="1761837440118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image to Text on Click</title>
+</head>
+<body>
+<h2>Click the Image Below 👇</h2>
+
+<img src="C:\Users\srira\WebstormProjects\JS_Basics" alt="Click Me" id="myImage" onclick="changeToText()">
+
+<h3 id="result"></h3>
+
+<script>
+    function changeToText() {
+        document.getElementById("myImage").style.display = "none"; // hide the image
+        document.getElementById("result").innerHTML = "You clicked the image! 🖼️➡️💬";
+    }
+</script>
+</body>
+</html>
