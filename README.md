@@ -77,4 +77,4 @@ JS_Basics/
 
 -----
 
-> *“Code it. Break it. Fix it. Learn from it.”* 🚀
+> *“God will steer the boat, But You must Row”* 🚀
